@@ -1,7 +1,7 @@
 - id: check-missing-migrations
   name: Check missing Django migrations
   description: This hook checks if changes has been made into models but not reflected into a migration.
-  entry: python manage.py makemigrations
+  entry: .venv/bin/python src/manage.py makemigrations
   args: [--check, --dry-run]
   language: system
   types_or: [python, directory]
