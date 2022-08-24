@@ -17,4 +17,5 @@ Add this to your `.pre-commit-config.yaml`
     rev: 1.0.0
     hooks:
         - id: check-missing-migrations
+          args: ["path/to/python", "path/to/manage.py"]
 ```
