@@ -13,8 +13,8 @@ It can be easily used inside a CI, all the instructions can be found inside pre-
 Add this to your `.pre-commit-config.yaml`
 
 ```yaml
--   repo: https://github.com/iflare3g/pre-commit-django-missing-migrations/
-    rev: 1.0.0
+-   repo: https://github.com/maqnius/pre-commit-django-missing-migrations
+    rev: 3.0.0
     hooks:
         - id: check-missing-migrations
           args: ["path/to/python", "path/to/manage.py"]
